@@ -1,6 +1,6 @@
 %CREATE TEMPLATES
 %Letter
-path = '';
+path = 'Templates\';
 A=imread(path + 'A.bmp');B=imread(path + 'B.bmp');
 C=imread(path + 'C.bmp');D=imread(path + 'D.bmp');
 E=imread(path + 'E.bmp');F=imread(path + 'F.bmp');
