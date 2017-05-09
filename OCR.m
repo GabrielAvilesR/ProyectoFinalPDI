@@ -3,7 +3,7 @@ warning off
 clc, close all, clear all
 
 % Read image
-imagen=imread('testcase1.PNG');
+imagen=imread('testcase2.jpg');
 % Show image
 
 figure(10);
@@ -54,7 +54,7 @@ while 1
                 word
     word=[ ];
         break
-    end    
-end
+end    
+
 
 clear all
