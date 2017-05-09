@@ -1,24 +1,25 @@
 %CREATE TEMPLATES
 %Letter
-A=imread('letters_numbers\A.bmp');B=imread('letters_numbers\B.bmp');
-C=imread('letters_numbers\C.bmp');D=imread('letters_numbers\D.bmp');
-E=imread('letters_numbers\E.bmp');F=imread('letters_numbers\F.bmp');
-G=imread('letters_numbers\G.bmp');H=imread('letters_numbers\H.bmp');
-I=imread('letters_numbers\I.bmp');J=imread('letters_numbers\J.bmp');
-K=imread('letters_numbers\K.bmp');L=imread('letters_numbers\L.bmp');
-M=imread('letters_numbers\M.bmp');N=imread('letters_numbers\N.bmp');
-O=imread('letters_numbers\O.bmp');P=imread('letters_numbers\P.bmp');
-Q=imread('letters_numbers\Q.bmp');R=imread('letters_numbers\R.bmp');
-S=imread('letters_numbers\S.bmp');T=imread('letters_numbers\T.bmp');
-U=imread('letters_numbers\U.bmp');V=imread('letters_numbers\V.bmp');
-W=imread('letters_numbers\W.bmp');X=imread('letters_numbers\X.bmp');
-Y=imread('letters_numbers\Y.bmp');Z=imread('letters_numbers\Z.bmp');
+path = 'Templates\';
+A=imread(path + 'A.bmp');B=imread(path + 'B.bmp');
+C=imread(path + 'C.bmp');D=imread(path + 'D.bmp');
+E=imread(path + 'E.bmp');F=imread(path + 'F.bmp');
+G=imread(path + 'G.bmp');H=imread(path + 'H.bmp');
+I=imread(path + 'I.bmp');J=imread(path + 'J.bmp');
+K=imread(path + 'K.bmp');L=imread(path + 'L.bmp');
+M=imread(path + 'M.bmp');N=imread(path + 'N.bmp');
+O=imread(path + 'O.bmp');P=imread(path + 'P.bmp');
+Q=imread(path + 'Q.bmp');R=imread(path + 'R.bmp');
+S=imread(path + 'S.bmp');T=imread(path + 'T.bmp');
+U=imread(path + 'U.bmp');V=imread(path + 'V.bmp');
+W=imread(path + 'W.bmp');X=imread(path + 'X.bmp');
+Y=imread(path + 'Y.bmp');Z=imread(path + 'Z.bmp');
 %Number
-one=imread('letters_numbers\1.bmp');  two=imread('letters_numbers\2.bmp');
-three=imread('letters_numbers\3.bmp');four=imread('letters_numbers\4.bmp');
-five=imread('letters_numbers\5.bmp'); six=imread('letters_numbers\6.bmp');
-seven=imread('letters_numbers\7.bmp');eight=imread('letters_numbers\8.bmp');
-nine=imread('letters_numbers\9.bmp'); zero=imread('letters_numbers\0.bmp');
+one=imread(path + '1.bmp');  two=imread(path + '2.bmp');
+three=imread(path + '3.bmp');four=imread(path + '4.bmp');
+five=imread(path + '5.bmp'); six=imread(path + '6.bmp');
+seven=imread(path + '7.bmp');eight=imread(path + '8.bmp');
+nine=imread(path + '9.bmp'); zero=imread(path + '0.bmp');
 %*-*-*-*-*-*-*-*-*-*-*-
 letter=[A B C D E F G H I J K L M...
     N O P Q R S T U V W X Y Z];
