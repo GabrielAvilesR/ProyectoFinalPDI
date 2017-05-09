@@ -1,6 +1,14 @@
 %CREATE TEMPLATES
 %Letter
 path = 'Templates\';
+
+%Number
+one=imread('Temp\1.bmp');  two=imread('Temp\2.bmp');
+three=imread('Temp\3.bmp');four=imread('Temp\4.bmp');
+five=imread('Temp\5.bmp'); six=imread('Temp\6.bmp');
+seven=imread('Temp\7.bmp');eight=imread('Temp\8.bmp');
+nine=imread('Temp\9.bmp'); zero=imread('Temp\0.bmp');
+
 A=imread('Temp\A.bmp');B=imread('Temp\B.bmp');
 C=imread('Temp\C.bmp');D=imread('Temp\D.bmp');
 E=imread('Temp\E.bmp');F=imread('Temp\F.bmp');
@@ -14,18 +22,13 @@ S=imread('Temp\S.bmp');T=imread('Temp\T.bmp');
 U=imread('Temp\U.bmp');V=imread('Temp\V.bmp');
 W=imread('Temp\W.bmp');X=imread('Temp\X.bmp');
 Y=imread('Temp\Y.bmp');Z=imread('Temp\Z.bmp');
-%Number
-one=imread('Temp\1.bmp');  two=imread('Temp\2.bmp');
-three=imread('Temp\3.bmp');four=imread('Temp\4.bmp');
-five=imread('Temp\5.bmp'); six=imread('Temp\6.bmp');
-seven=imread('Temp\7.bmp');eight=imread('Temp\8.bmp');
-nine=imread('Temp\9.bmp'); zero=imread('Temp\0.bmp');
+
 %*-*-*-*-*-*-*-*-*-*-*-
-letter=[A B C D E F G H I J K L M...
-    N O P Q R S T U V W X Y Z];
 number=[one two three four five...
     six seven eight nine zero];
-character=[letter number];
+letter=[A B C D E F G H I J K L M...
+    N O P Q R S T U V W X Y Z];
+character=[number letter];
 templates=mat2cell(character,42,[24 24 24 24 24 24 24 ...
     24 24 24 24 24 24 24 ...
     24 24 24 24 24 24 24 ...
