@@ -48,7 +48,7 @@ while 1
         [r,c] = find(L==n);
         n1=imgn(min(r):max(r),min(c):max(c));  
         img_r=imresize(n1,[42 24]);
-        letter=read_letter(img_r,num_letras);
+        letter=compare_letter(img_r,num_letras);
         word=[word letter];
     end
                 word
