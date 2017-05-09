@@ -36,7 +36,6 @@ imshow(imagen);
 imagen = bwareaopen(imagen,30);
 word=[ ];
 re=imagen;
-fid = fopen('text.txt', 'a');
 load templates
 global templates
 num_letras=size(templates,2);
