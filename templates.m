@@ -23,7 +23,7 @@ nine=imread(path + '9.bmp'); zero=imread(path + '0.bmp');
 %*-*-*-*-*-*-*-*-*-*-*-
 %*-*-*-*-*-*-*-*-*-*-*-
 letras=[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-numero=[uno dos tres cuatro cinco seis siete ocho nueve zero];
+numero=[one two three four five six seven eight nine ten];
 character=[letras numero];
 
 number = 36
