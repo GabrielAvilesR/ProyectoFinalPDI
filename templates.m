@@ -21,7 +21,6 @@ five=imread(path + '5.bmp'); six=imread(path + '6.bmp');
 seven=imread(path + '7.bmp');eight=imread(path + '8.bmp');
 nine=imread(path + '9.bmp'); zero=imread(path + '0.bmp');
 %*-*-*-*-*-*-*-*-*-*-*-
-%*-*-*-*-*-*-*-*-*-*-*-
 letras=[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
 numero=[one two three four five six seven eight nine ten];
 character=[letras numero];
