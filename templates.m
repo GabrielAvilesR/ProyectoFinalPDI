@@ -31,6 +31,6 @@ for i = 1 : number
 	D(i) = 24;
 end
 
-templates=mat2cell(character, 42, arr);
+templates=mat2cell(character, 42, D);
 save ('templates','templates')
 clear all
