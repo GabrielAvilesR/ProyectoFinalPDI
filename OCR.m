@@ -3,7 +3,7 @@ warning off
 clc, close all, clear all
 
 % Read image
-imagen=imread('testcase2.jpg');
+imagen=imread('testcaseHOLA.PNG');
 % Show image
 
 figure(10);
