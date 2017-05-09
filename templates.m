@@ -21,15 +21,17 @@ five=imread(path + '5.bmp'); six=imread(path + '6.bmp');
 seven=imread(path + '7.bmp');eight=imread(path + '8.bmp');
 nine=imread(path + '9.bmp'); zero=imread(path + '0.bmp');
 %*-*-*-*-*-*-*-*-*-*-*-
-letter=[A B C D E F G H I J K L M...
-    N O P Q R S T U V W X Y Z];
-number=[one two three four five...
-    six seven eight nine zero];
-character=[letter number];
-templates=mat2cell(character,42,[24 24 24 24 24 24 24 ...
-    24 24 24 24 24 24 24 ...
-    24 24 24 24 24 24 24 ...
-    24 24 24 24 24 24 24 ...
-    24 24 24 24 24 24 24 24]);
+%*-*-*-*-*-*-*-*-*-*-*-
+letras=[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+numero=[uno dos tres cuatro cinco seis siete ocho nueve zero];
+character=[letras numero];
+
+number = 36
+D=zeros(number,1);
+for i = 1 : number
+	D(i) = 24;
+end
+
+templates=mat2cell(character, 42, arr);
 save ('templates','templates')
 clear all
