@@ -7,77 +7,77 @@ for n=1:num_letras
 end
 vd=find(comp==max(comp));
 %*-*-*-*-*-*-*-*-*-*-*-*-*-
-switch vd
-    case 1
-        letter='A';
-    case 2
-        letter='B';
-    case 3
-        letter='C';
-    case 4
-        letter='D';
-    case 5
-        letter='E';
-    case 6
-        letter='F';
-    case 7
-        letter='G';
-    case 8
-        letter='H';
-    case 9
-        letter='I';
-    case 10
-        letter='J';
-    case 11
-        letter='K';
-    case 12
-        letter='L';
-    case 13
-        letter='M';
-    case 14
-        letter='N';
-    case 15
-        letter='O';
-    case 16
-        letter='P';
-    case 17
-        letter='Q';
-    case 18
-        letter='R';
-    case 19
-        letter='S';
-    case 20
-        letter='T';
-    case 21
-        letter='U';
-    case 22
-        letter='V';
-    case 23
-        letter='W';
-    case 24
-        letter='X';
-    case 25
-        letter='Y';
-    case 26
-        letter='Z';
-    case 27
-        letter='1';
-    case 28
-        letter='2';
-    case 29
-        letter='3';
-    case 30
-        letter='4';
-    case 31
-        letter='5';
-    case 32
-        letter='6';
-    case 33
-        letter='7';
-    case 34
-        letter='8';
-    case 35
-        letter='9';
-    otherwise
-        letter='0';
+if vd==1
+    letter='A';
+elseif vd==2
+    letter='B';
+elseif vd==3
+    letter='C';
+elseif vd==4
+    letter='D';
+elseif vd==5
+    letter='E';
+elseif vd==6
+    letter='F';
+elseif vd==7
+    letter='G';
+elseif vd==8
+    letter='H';
+elseif vd==9
+    letter='I';
+elseif vd==10
+    letter='J';
+elseif vd==11
+    letter='K';
+elseif vd==12
+    letter='L';
+elseif vd==13
+    letter='M';
+elseif vd==14
+    letter='N';
+elseif vd==15
+    letter='O';
+elseif vd==16
+    letter='P';
+elseif vd==17
+    letter='Q';
+elseif vd==18
+    letter='R';
+elseif vd==19
+    letter='S';
+elseif vd==20
+    letter='T';
+elseif vd==21
+    letter='U';
+elseif vd==22
+    letter='V';
+elseif vd==23
+    letter='W';
+elseif vd==24
+    letter='X';
+elseif vd==25
+    letter='Y';
+elseif vd==26
+    letter='Z';
+    %*-*-*-*-*
+elseif vd==27
+    letter='1';
+elseif vd==28
+    letter='2';
+elseif vd==29
+    letter='3';
+elseif vd==30
+    letter='4';
+elseif vd==31
+    letter='5';
+elseif vd==32
+    letter='6';
+elseif vd==33
+    letter='7';
+elseif vd==34
+    letter='8';
+elseif vd==35
+    letter='9';
+else
+    letter='0';
 end
