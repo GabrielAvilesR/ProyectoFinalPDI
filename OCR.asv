@@ -8,7 +8,7 @@ warning off %#ok<WNOFF>
 % Clear all
 clc, close all, clear all
 % Read image
-imagen=imread('testcase1.PNG');
+imagen=imread('testcase5.PNG');
 % Show image
 figure(10);
        imshow(imagen);
