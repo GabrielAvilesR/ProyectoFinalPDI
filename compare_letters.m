@@ -78,6 +78,8 @@ elseif vd==34
     letter='8';
 elseif vd==35
     letter='9';
+elseif vd == 36
+    letter='0'
 else
-    letter='0';
+    letter='';
 end
